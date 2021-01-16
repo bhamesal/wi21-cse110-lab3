@@ -68,6 +68,15 @@
       Just for you!
    </p>
    <form>
+      <fieldset>
+         <legend>Which personality best describes you?<legend>
+            
+         <input type="radio" id="Introvert" name="personality">
+         <label for="Introvert">Introvert</label><br/>
+
+         <input type="radio" id="Extrovert" name="personality">
+         <label for="Extrovert">Extrovert</label><br/>         
+      </fieldset>
       <input type="checkbox" id="checkboxSample" name="birthdayCheck" value="checkmark">
       <label for="checkboxSample">Is it your birthday?</label>
       <input type="button" value="Push Button">
@@ -83,6 +92,21 @@
       <label for="phoneNumberSample">Phone number:</label>
       <input id="phoneNumberSample" name="phoneNumberSample" type="tel">
       <input type="submit" value="Submit Form">
+      <textarea name="textAreaSample" rows="15" cols="60">Please share any technical difficulties you experienced on this site</textarea>
    </form>
+   <label for="datalistSample">Have you ever failed to file your taxes on time?</label>
+   <input list="yesNoMaybe" id="datalistSample" name="datalistSample" />
+   <datalist id="yesNoMaybe">
+      <option value="Yes">
+      <option value="No">
+      <option value="Maybe">
+   </datalist>
+   <select>
+      <optgroup label="Favorite Color">
+         <option>Red</option>
+         <option>Green</option>
+         <option>Blue</option>
+      </optgroup>
+   </select>
 </body>
 </html>
