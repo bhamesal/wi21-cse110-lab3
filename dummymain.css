@@ -19,3 +19,6 @@ a[name="button"] {
   text-align: center;
 }
 
+a:visited {
+  color: #00AA00;
+}
