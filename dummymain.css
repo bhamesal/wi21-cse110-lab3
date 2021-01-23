@@ -118,3 +118,13 @@ main {
   margin-right: 250px;
   margin-left: 50px;
 }
+
+.gridSample {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: black;
+}
+.gridElement {
+  background-color: white;
+  text-align: center;
+}
