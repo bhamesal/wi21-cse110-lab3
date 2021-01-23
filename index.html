@@ -4,6 +4,18 @@
    <title>CSE110-Lab2</title>
    <meta http-equiv="refresh" content="5">
    <link href="dummymain.css" rel="stylesheet">
+   <style>
+      .flexSample {
+         display: flex;
+         background-color: purple;
+      }
+      .flexSample > li {
+         background-color: blue;
+         flex-grow: 2;
+         flex-shrink: 2;
+         flex-order: 1;
+      }
+   </style>
 </head>
 <body>
    <nav class="contents">
@@ -37,7 +49,7 @@
    
    <p class="week2">During week 2 of class, it felt like I was preparing for a massive battle.</p>
    <p>Here is an unordered list of foods</p>
-   <ul>
+   <ul class="flexSample">
       <li class="food1">Pasta</li>
       <li class="food2">Hamburger</li>
       <li class="food3">Pizza</li>
