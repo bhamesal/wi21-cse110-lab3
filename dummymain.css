@@ -22,3 +22,7 @@ a[name="button"] {
 a:visited {
   color: #00AA00;
 }
+
+form, footer{
+  text-align:center 
+}
