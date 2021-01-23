@@ -1,10 +1,12 @@
 p.quote {
   text-align: center;
-  color: yellow;
+  text-decoration: underline;
+  color: blue;
 }
 
 #week1 {
   color: yellow;
+  background-color: hsla(0, 50%, 50%, 0.5);
 }
 
 * {
@@ -24,24 +26,24 @@ a:visited {
 }
 
 form, footer {
-  text-align:center 
+  text-align: center; 
 }
 
 div p {
-  background-color:#ffffff
+  background-color: hsl(0, 100%, 100%);
 }
 
 section > p {
-  color:#ffffff
+  color: #ffffff;
 }
 
 h1 ~ h2 {
-  color:rgb(100, 100, 100)
-  background-color:rgba(0, 0, 255, 0.5)
+  color: rgb(100, 100, 100);
+  background-color: rgba(0, 0, 255, 0.5);
 }
 
 figure + p {
-  color:#ffffff
+  color: #EAE;
 }
 
 /* Here is an example of a comment in CSS */
