@@ -1,10 +1,22 @@
+.week2 {
+ background-color: purple;
+ width: 100px;
+ height: 200px;
+}
+
 p.quote {
+  font-size: 2rem;
   text-align: center;
   text-decoration: underline;
   color: blue;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  border-radius: 50px;
 }
 
 #week1 {
+  font-size: 2ex;
   color: yellow;
   background-color: hsla(0, 50%, 50%, 0.5);
 }
@@ -14,6 +26,7 @@ p.quote {
 }
 
 div {
+  font-size: 120%;
   text-align: center;
 }
 
@@ -21,7 +34,7 @@ a[name="button"] {
   text-align: center;
 }
 
-a:visited {
+a:hover {
   color: #00aa00;
 }
 
@@ -40,6 +53,13 @@ section > p {
 h1 ~ h2 {
   color: rgb(100, 100, 100);
   background-color: rgba(0, 0, 255, 0.5);
+  width: 400px;
+  margin: auto;
+  border: 1px solid black;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 30px;
 }
 
 figure + p {
@@ -48,3 +68,20 @@ figure + p {
 
 /* Here is an example of a comment in CSS */
 
+summary {
+  color: yellow;
+  background-color: black;
+  width: 3in;
+  border: 20px solid blue;
+  padding: 1.25cm 1.3cm 1.35cm 1.4cm;
+  margin: 25px 30px 35px 40px; 
+}
+
+main {
+  background-color: blue;
+  border: 5px solid green;
+  margin-top: 250px;
+  margin-bottom: 50px;
+  margin-right: 250px;
+  margin-left: 50px;
+}
