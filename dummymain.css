@@ -20,9 +20,26 @@ a[name="button"] {
 }
 
 a:visited {
-  color: #00AA00;
+  color: #00aa00;
 }
 
-form, footer{
+form, footer {
   text-align:center 
 }
+
+div p {
+  background-color:#ffffff
+}
+
+section > p {
+  color:#ffffff
+}
+
+h1 ~ h2 {
+  color:#ffffff
+}
+
+figure + p {
+  color:#ffffff
+}
+
