@@ -1,12 +1,12 @@
 p.quote {
   text-align: center;
-  color: blue;
+  color: yellow;
 }
 
 #week1 {
-  color: blue;
+  color: yellow;
 }
 
 * {
-    background-color: green;
+    background-color: yellow;
 }
