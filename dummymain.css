@@ -36,10 +36,13 @@ section > p {
 }
 
 h1 ~ h2 {
-  color:#ffffff
+  color:rgb(100, 100, 100)
+  background-color:rgba(0, 0, 255, 0.5)
 }
 
 figure + p {
   color:#ffffff
 }
+
+/* Here is an example of a comment in CSS */
 
